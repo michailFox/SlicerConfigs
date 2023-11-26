@@ -1,0 +1,52 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n",
+    "from": "User",
+    "gcode_flavor": "marlin2",
+    "inherits": "MyMarlin 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "G1 E-1.0 F2100 ; retract\n\nG1{if max_layer_z < max_print_height} Z{z_offset+min(max_layer_z+30, max_print_height)}{endif} E-34.0 F720 ; move print head up & retract filament\nG4 ; wait\nM104 S0 ; turn off temperature\nM140 S0 ; turn off heatbed\nM107 ; turn off fan\nG1 X0 Y105 F3000 ; park print head\nM84 ; disable motors",
+    "machine_max_acceleration_extruding": [
+        "4000"
+    ],
+    "machine_max_acceleration_travel": [
+        "4000",
+        "1250"
+    ],
+    "machine_max_acceleration_x": [
+        "4000"
+    ],
+    "machine_max_acceleration_y": [
+        "4000"
+    ],
+    "machine_max_jerk_x": [
+        "10"
+    ],
+    "machine_max_jerk_y": [
+        "10"
+    ],
+    "machine_max_speed_x": [
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "200"
+    ],
+    "machine_start_gcode": "G90 ; use absolute coordinates\nM83 ; extruder relative mode\nM204 S[machine_max_acceleration_extruding] T[machine_max_acceleration_retracting]\nM104 S[first_layer_temperature] ; set extruder temp\nM140 S[first_layer_bed_temperature] ; set bed temp\nG28 ; home all\nG1 Y1.0 Z0.3 F1000 ; move print head up\nM190 S[first_layer_bed_temperature] ; wait for bed temp\nM109 S[first_layer_temperature] ; wait for extruder temp\nG92 E0.0\n; initial load\nG1 X205.0 E19 F1000\nG1 Y1.6\nG1 X5.0 E19 F1000\nG92 E0.0\n; intro line\nG1 Y2.0 Z0.2 F1000\nG1 X65.0 E9.0 F1000\nG1 X105.0 E12.5 F1000\n",
+    "name": "Ghost5",
+    "nozzle_type": "brass",
+    "printable_area": [
+        "0x0",
+        "255x0",
+        "255x210",
+        "0x210"
+    ],
+    "printable_height": "200",
+    "printer_settings_id": "Ghost5",
+    "retraction_length": [
+        "0.8"
+    ],
+    "use_relative_e_distances": "0",
+    "version": "1.6.1.0",
+    "z_hop_types": [
+        "Auto Lift"
+    ]
+}

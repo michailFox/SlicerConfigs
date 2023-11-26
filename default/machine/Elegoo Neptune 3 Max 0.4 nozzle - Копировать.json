@@ -1,0 +1,27 @@
+{
+    "from": "User",
+    "inherits": "Elegoo Neptune 3 Max 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_extruding": [
+        "1000",
+        "500"
+    ],
+    "machine_max_acceleration_x": [
+        "1000",
+        "500"
+    ],
+    "machine_max_acceleration_y": [
+        "1000",
+        "500"
+    ],
+    "name": "Elegoo Neptune 3 Max 0.4 nozzle - Копировать",
+    "nozzle_type": "brass",
+    "printer_settings_id": "Elegoo Neptune 3 Max 0.4 nozzle - Копировать",
+    "retraction_length": [
+        "0.8"
+    ],
+    "version": "1.7.0.0",
+    "z_hop": [
+        "0"
+    ]
+}

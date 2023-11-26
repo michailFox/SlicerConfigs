@@ -1,0 +1,11 @@
+{
+    "from": "User",
+    "inherits": "FLSun V400 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "FLSun V400 0.4 nozzle - Копия",
+    "nozzle_type": "brass",
+    "print_host": "http://192.168.100.211",
+    "print_host_webui": "http://192.168.100.211",
+    "printer_settings_id": "FLSun V400 0.4 nozzle - Копия",
+    "version": "1.6.4.0"
+}

@@ -1,0 +1,25 @@
+{
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "Elegoo Generic PETG - Копировать"
+    ],
+    "from": "User",
+    "inherits": "Elegoo Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Elegoo Generic PETG - Копировать",
+    "nozzle_temperature": [
+        "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "nozzle_temperature_range_high": [
+        "245"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "version": "1.7.0.0"
+}

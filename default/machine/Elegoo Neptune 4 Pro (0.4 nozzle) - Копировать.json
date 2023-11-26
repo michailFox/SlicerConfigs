@@ -1,0 +1,14 @@
+{
+    "change_filament_gcode": "M600",
+    "from": "User",
+    "inherits": "Elegoo Neptune 4 Pro (0.4 nozzle)",
+    "is_custom_defined": "0",
+    "name": "Elegoo Neptune 4 Pro (0.4 nozzle) - Копировать",
+    "nozzle_type": "brass",
+    "print_host": "192.168.100.54",
+    "printer_settings_id": "Elegoo Neptune 4 Pro (0.4 nozzle) - Копировать",
+    "retraction_length": [
+        "0.8"
+    ],
+    "version": "1.7.0.0"
+}

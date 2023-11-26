@@ -1,0 +1,28 @@
+{
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "23"
+    ],
+    "filament_settings_id": [
+        "FLSun Generic PLA - Копировать"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "70"
+    ],
+    "inherits": "FLSun Generic PLA",
+    "is_custom_defined": "0",
+    "name": "FLSun Generic PLA - Копировать",
+    "nozzle_temperature": [
+        "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "version": "1.6.4.0"
+}
